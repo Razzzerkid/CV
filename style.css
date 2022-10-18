@@ -116,7 +116,7 @@ body {
 .linsk__link
 {
   color: #cb782f; /* Цвет текста */
-  font-size: 0.9em; /* Размер текста */
+  font-size: 1em; /* Размер текста */
   font-weight: bold;
   padding: 0px 0px 10px;
     line-height: 1;
