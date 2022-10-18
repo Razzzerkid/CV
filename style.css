@@ -142,3 +142,13 @@ footer {
 	color: #cb782f;
 	box-shadow: inset 0 0 0 3px #cb782f;
 }
+
+img.rotate-img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+img.rotate-img:hover {
+  -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+          transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+}
